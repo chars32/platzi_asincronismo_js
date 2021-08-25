@@ -1,4 +1,4 @@
-const fetchData = require('./utils/fetchData');
+const fetchData = require('../utils/fetchData');
 const API = 'https://rickandmortyapi.com/api/character/'
 
 fetchData(API)
